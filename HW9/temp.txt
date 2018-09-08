@@ -1,0 +1,63 @@
+    /*
+    from = (char*)malloc(sizeof(char)); *from = 'A'; // A: X
+    to = (char*)malloc(sizeof(char)); *to = 'X';
+    graphInsArc(graph, from, to);
+    
+    from = (char*)malloc(sizeof(char)); *from = 'X'; // X: A,G,H
+    to = (char*)malloc(sizeof(char)); *to = 'A';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'G';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'H';
+    graphInsArc(graph, from, to);
+    
+    from = (char*)malloc(sizeof(char)); *from = 'H'; // H: X,G,P
+    to = (char*)malloc(sizeof(char)); *to = 'X';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'G';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'P';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'E';
+    graphInsArc(graph, from, to);
+    
+    from = (char*)malloc(sizeof(char)); *from = 'G'; // D: C
+    to = (char*)malloc(sizeof(char)); *to = 'X';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'H';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'P';
+    graphInsArc(graph, from, to);
+    
+    from = (char*)malloc(sizeof(char)); *from = 'P'; // E: B,C,D,F
+    to = (char*)malloc(sizeof(char)); *to = 'G';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'H';
+    graphInsArc(graph, from, to);
+
+    from = (char*)malloc(sizeof(char)); *from = 'E'; // F: E
+    to = (char*)malloc(sizeof(char)); *to = 'H';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'Y';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'M';
+    graphInsArc(graph, from, to);
+    
+     from = (char*)malloc(sizeof(char)); *from = 'Y'; // F: E
+    to = (char*)malloc(sizeof(char)); *to = 'E';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'M';
+    graphInsArc(graph, from, to);
+    
+     from = (char*)malloc(sizeof(char)); *from = 'M'; // F: E
+    to = (char*)malloc(sizeof(char)); *to = 'E';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'Y';
+    graphInsArc(graph, from, to);
+    to = (char*)malloc(sizeof(char)); *to = 'J';
+    graphInsArc(graph, from, to);
+    
+    from = (char*)malloc(sizeof(char)); *from = 'J'; // F: E
+    to = (char*)malloc(sizeof(char)); *to = 'M';
+    graphInsArc(graph, from, to);
+    */

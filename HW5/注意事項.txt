@@ -1,0 +1,29 @@
+這次手寫作業請寫在A4紙上並於11/19(三)上課交
+程式作業deadline為11/23(日)
+ 
+手寫作業( Deadline 2014/11/19 (三)上課交 )
+
+5.3
+5.4
+ 
+ 
+ 
+程式作業( Deadline 2014/11/23 (日) )
+
+5.26 (助教有給input file)
+5.29 (助教有給input file)
+5.30
+5.36 (助教有給input file)
+5.39 (助教有給input file)
+
+剛剛有同學問39題
+
+FIGURE 5-38畫的結構第一格有三個空位
+
+圖片上有寫 count, pos, head
+count   ( total count of data nodes ),
+我們把 pos 這格改成存檔案名稱
+head    ( 指向第一個data node )
+
+
+如果有問題可以寫信給TA (記得兩個TA都要寄信)
